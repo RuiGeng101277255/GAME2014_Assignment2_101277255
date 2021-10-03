@@ -56,3 +56,12 @@ TagManager:
   - name: PlayerComp
     uniqueID: 1971989319
     locked: 0
+  - name: UI
+    uniqueID: 2313004927
+    locked: 0
+  - name: UISmall
+    uniqueID: 2286100755
+    locked: 0
+  - name: UISmallItem
+    uniqueID: 1781663277
+    locked: 0

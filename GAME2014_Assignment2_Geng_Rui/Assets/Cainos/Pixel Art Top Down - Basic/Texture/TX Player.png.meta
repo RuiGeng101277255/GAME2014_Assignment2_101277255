@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 21300006
     second: TX Shadow Player
+  - first:
+      213: 1549508750607559342
+    second: TX Player_0
+  - first:
+      213: -6957052691073287718
+    second: TX Player_1
+  - first:
+      213: 2185052477942719528
+    second: TX Player_2
+  - first:
+      213: -1844808789431545801
+    second: TX Player_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -103,85 +115,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TX Player F
+      name: TX Player_0
       rect:
         serializedVersion: 2
         x: 6
         y: 70
         width: 21
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 30}
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5766e0acb972fc4a822fd0da3d78646
-      internalID: 21300000
+      spriteID: eaaa250cff5f08510800000000000000
+      internalID: 1549508750607559342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Player B
+      name: TX Player_1
       rect:
         serializedVersion: 2
         x: 38
         y: 70
         width: 21
         height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 30}
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b86785e343a0d4cb6789e18659fc2b
-      internalID: 21300002
+      spriteID: ad9b6e00075937f90800000000000000
+      internalID: -6957052691073287718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Player S
+      name: TX Player_2
       rect:
         serializedVersion: 2
         x: 69
         y: 70
         width: 21
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 1, z: 0, w: 31}
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ca82717e2de784b8635c80e5b0c18f
-      internalID: 21300004
+      spriteID: 824ec5bd6add25e10800000000000000
+      internalID: 2185052477942719528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TX Shadow Player
+      name: TX Player_3
       rect:
         serializedVersion: 2
         x: 99
         y: 68
         width: 27
         height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a919befe8cac95409cfc0454a956cba
-      internalID: 21300006
+      spriteID: 7301a632e2ce566e0800000000000000
+      internalID: -1844808789431545801
       vertices: []
       indices: 
       edges: []

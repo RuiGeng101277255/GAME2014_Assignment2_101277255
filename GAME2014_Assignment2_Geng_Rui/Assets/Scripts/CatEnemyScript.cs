@@ -5,7 +5,6 @@ using UnityEngine;
 public class CatEnemyScript : MonoBehaviour
 {
     public float moveSpeed;
-    public int reachedTurnPoint = 0;
 
     Rigidbody2D CatRB;
     Animator CatAnim;

@@ -29,7 +29,10 @@ public class EnemyManager : MonoBehaviour
     }
     public void PointTriggeredBySlime(SlimeEnemyScript slime, TriggerBoxScript box)
     {
-
+        if (box != null)
+        {
+            slime.setTargetPosition(box.transform.position);
+        }
     }
 
     //void checkCatEnemyPath()

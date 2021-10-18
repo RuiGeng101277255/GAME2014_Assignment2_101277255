@@ -11,6 +11,7 @@ public class SlimeEnemyScript : MonoBehaviour
     SpriteRenderer SlimeSprite;
 
     bool isMoving;
+    [SerializeField]
     int Health;
     Vector2 moveDirection;
 
@@ -56,6 +57,9 @@ public class SlimeEnemyScript : MonoBehaviour
     void CatDeath()
     {
         //destroy cat and spawns some loot
+
+        //destroying for now
+        Destroy(this);
     }
 
     void calcDirection(Vector2 pos, Vector2 target)

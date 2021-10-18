@@ -6,18 +6,52 @@ public class EnemyManager : MonoBehaviour
 {
     public List<TriggerBoxScript> PathTriggerBoxes;
     public CatEnemyScript CatPrefab;
-    public SlimeEnemyScript EnemyPrefab;
+    public SlimeEnemyScript SlimePrefab;
+    public Vector2 spawnPosition;
+
+    float SlimeSpawnDelay;
+    float CatSpawnDelay;
+
+    Queue<SlimeEnemyScript> SlimePool;
+    Queue<CatEnemyScript> CatPool;
+
+    [SerializeField]
+    int SpawnedSlimeNum;
+    [SerializeField]
+    int SpawnedCatNum;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        SlimeSpawnDelay = 0.0f;
+        CatSpawnDelay = 0.0f;
+
+        SlimePool = new Queue<SlimeEnemyScript>();
+        CatPool = new Queue<CatEnemyScript>();
+        SpawnedSlimeNum = 0;
+        SpawnedCatNum = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //checkCatEnemyPath();
+        if (SlimeSpawnDelay <= 0.0f)
+        {
+            spawnSlime();
+        }
+        else
+        {
+            SlimeSpawnDelay -= Time.deltaTime;
+        }
+
+        if (CatSpawnDelay <= 0.0f)
+        {
+            spawnCat();
+        }
+        else
+        {
+            CatSpawnDelay -= Time.deltaTime;
+        }
     }
 
     public void PointTriggeredByCat(CatEnemyScript cat, TriggerBoxScript box)
@@ -35,25 +69,53 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    //void checkCatEnemyPath()
-    //{
-    //    if ((CatPrefab.reachedTurnPoint == 0)||(CatPrefab.reachedTurnPoint == 4))
-    //    {
-    //        //move right
-    //        CatPrefab.setNewDirection(new Vector2(1.0f, 0.0f));
-    //        CatPrefab.setCatPosition(new Vector2(CatPrefab.getCatPosition().x, EnemyPathPoints[CatPrefab.reachedTurnPoint]. .y));
-    //    }
-    //    else if (((CatPrefab.reachedTurnPoint == 1) || (CatPrefab.reachedTurnPoint == 3))||(CatPrefab.reachedTurnPoint == 5))
-    //    {
-    //        //move down
-    //        CatPrefab.setNewDirection(new Vector2(0.0f, -1.0f));
-    //        CatPrefab.setCatPosition(new Vector2(CatPrefab.getCatPosition().x, EnemyPathPoints[CatPrefab.reachedTurnPoint].y));
-    //    }
-    //    else if (CatPrefab.reachedTurnPoint == 2)
-    //    {
-    //        //move left
-    //        CatPrefab.setNewDirection(new Vector2(-1.0f, 0.0f));
-    //        CatPrefab.setCatPosition(new Vector2(CatPrefab.getCatPosition().x, EnemyPathPoints[CatPrefab.reachedTurnPoint].y));
-    //    }
-    //}
+    void spawnSlime()
+    {
+        SlimeEnemyScript tempSlime = null;
+
+        if (SlimePool.Count < 1)
+        {
+            createSlime();
+        }
+
+        tempSlime = SlimePool.Dequeue();
+        tempSlime.transform.position = spawnPosition;
+        tempSlime.gameObject.SetActive(true);
+
+        SlimeSpawnDelay = Random.Range(0.15f, 5.0f);
+        SpawnedSlimeNum++;
+    }
+
+    void spawnCat()
+    {
+        CatEnemyScript tempSlime = null;
+
+        if (CatPool.Count < 1)
+        {
+            createCat();
+        }
+
+        tempSlime = CatPool.Dequeue();
+        tempSlime.transform.position = spawnPosition;
+        tempSlime.gameObject.SetActive(true);
+
+        CatSpawnDelay = Random.Range(0.15f, 7.5f);
+        SpawnedCatNum++;
+    }
+
+    void createSlime()
+    {
+        SlimeEnemyScript tempSlime = Instantiate(SlimePrefab);
+        tempSlime.transform.position = spawnPosition;
+        tempSlime.gameObject.SetActive(false);
+        SlimePool.Enqueue(tempSlime);
+    }
+
+    void createCat()
+    {
+        CatEnemyScript tempCat = Instantiate(CatPrefab);
+        tempCat.transform.position = spawnPosition;
+        tempCat.gameObject.SetActive(false);
+        CatPool.Enqueue(tempCat);
+    }
 }

@@ -15,12 +15,16 @@ public class SlimeEnemyScript : MonoBehaviour
     int Health;
     Vector2 moveDirection;
 
+    EnemyManager manager;
+
     // Start is called before the first frame update
     void Start()
     {
         SlimeRB = GetComponent<Rigidbody2D>();
         SlimeAnim = GetComponent<Animator>();
         SlimeSprite = GetComponent<SpriteRenderer>();
+
+        manager = FindObjectOfType<EnemyManager>();
 
         isMoving = true;
         Health = 100;
@@ -41,7 +45,7 @@ public class SlimeEnemyScript : MonoBehaviour
         else
         {
             //CatAnim.SetBool("IsMoving", isMoving);
-            CatDeath();
+            SlimeDeath();
         }
     }
 
@@ -54,12 +58,11 @@ public class SlimeEnemyScript : MonoBehaviour
         Health -= damage;
     }
 
-    void CatDeath()
+    void SlimeDeath()
     {
         //destroy cat and spawns some loot
-
-        //destroying for now
-        Destroy(this);
+        Health = 100;
+        manager.returnSlime(this);
     }
 
     void calcDirection(Vector2 pos, Vector2 target)

@@ -14,12 +14,16 @@ public class CatEnemyScript : MonoBehaviour
     int Health;
     Vector2 moveDirection;
 
+    EnemyManager manager;
+
     // Start is called before the first frame update
     void Start()
     {
         CatRB = GetComponent<Rigidbody2D>();
         CatAnim = GetComponent<Animator>();
         CatSprite = GetComponent<SpriteRenderer>();
+
+        manager = FindObjectOfType<EnemyManager>();
 
         isMoving = true;
         Health = 100;
@@ -56,6 +60,8 @@ public class CatEnemyScript : MonoBehaviour
     void CatDeath()
     {
         //destroy cat and spawns some loot
+        Health = 100;
+        manager.returnCat(this);
     }
 
     void calcDirection(Vector2 pos, Vector2 target)

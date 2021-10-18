@@ -36,7 +36,7 @@ public class PlayerAttackScript : MonoBehaviour
         {
             if (collision.gameObject.GetComponent<CatEnemyScript>() != null)
             {
-                //collision.gameObject.GetComponent<CatEnemyScript>().CauseDamage(AttackDamage);
+                collision.gameObject.GetComponent<CatEnemyScript>().CauseDamage(AttackDamage);
                 //collision.gameObject.GetComponent<CatEnemyScript>().setTargetPosition(new Vector2(-10.5f, 5.5f));
                 currentTimeInterval = AttackIntervalDuration;
                 canDamage = false;
@@ -45,7 +45,7 @@ public class PlayerAttackScript : MonoBehaviour
             
             if (collision.gameObject.GetComponent<SlimeEnemyScript>() != null)
             {
-                //collision.gameObject.GetComponent<SlimeEnemyScript>().CauseDamage(AttackDamage);
+                collision.gameObject.GetComponent<SlimeEnemyScript>().CauseDamage(AttackDamage);
                 //collision.gameObject.GetComponent<SlimeEnemyScript>().setTargetPosition(new Vector2(-10.5f, 5.5f));
                 currentTimeInterval = AttackIntervalDuration;
                 canDamage = false;

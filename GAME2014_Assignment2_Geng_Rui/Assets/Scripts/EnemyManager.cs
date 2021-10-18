@@ -54,6 +54,52 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
+    void spawnSlime()
+    {
+        if (SlimePool.Count < 1)
+        {
+            createSlime();
+        }
+
+        SlimeEnemyScript tempSlime = SlimePool.Dequeue();
+        tempSlime.gameObject.SetActive(true);
+        tempSlime.GetComponent<Rigidbody2D>().position = spawnPosition;
+
+        SlimeSpawnDelay = Random.Range(0.15f, 2.0f);
+        SpawnedSlimeNum++;
+    }
+
+    void spawnCat()
+    {
+        if (CatPool.Count < 1)
+        {
+            createCat();
+        }
+
+        CatEnemyScript tempCat = CatPool.Dequeue();
+        tempCat.gameObject.SetActive(true);
+        tempCat.GetComponent<Rigidbody2D>().position = spawnPosition;
+
+        CatSpawnDelay = Random.Range(0.15f, 5.0f);
+        SpawnedCatNum++;
+    }
+
+    void createSlime()
+    {
+        SlimeEnemyScript tempSlime = Instantiate(SlimePrefab);
+        tempSlime.GetComponent<Rigidbody2D>().position = spawnPosition;
+        tempSlime.gameObject.SetActive(false);
+        SlimePool.Enqueue(tempSlime);
+    }
+
+    void createCat()
+    {
+        CatEnemyScript tempCat = Instantiate(CatPrefab);
+        tempCat.GetComponent<Rigidbody2D>().position = spawnPosition;
+        tempCat.gameObject.SetActive(false);
+        CatPool.Enqueue(tempCat);
+    }
+
     public void PointTriggeredByCat(CatEnemyScript cat, TriggerBoxScript box)
     {
         if (box != null)
@@ -69,53 +115,15 @@ public class EnemyManager : MonoBehaviour
         }
     }
 
-    void spawnSlime()
+    public void returnSlime(SlimeEnemyScript slime)
     {
-        SlimeEnemyScript tempSlime = null;
-
-        if (SlimePool.Count < 1)
-        {
-            createSlime();
-        }
-
-        tempSlime = SlimePool.Dequeue();
-        tempSlime.transform.position = spawnPosition;
-        tempSlime.gameObject.SetActive(true);
-
-        SlimeSpawnDelay = Random.Range(0.15f, 5.0f);
-        SpawnedSlimeNum++;
+        slime.gameObject.SetActive(false);
+        SlimePool.Enqueue(slime);
     }
 
-    void spawnCat()
+    public void returnCat(CatEnemyScript cat)
     {
-        CatEnemyScript tempSlime = null;
-
-        if (CatPool.Count < 1)
-        {
-            createCat();
-        }
-
-        tempSlime = CatPool.Dequeue();
-        tempSlime.transform.position = spawnPosition;
-        tempSlime.gameObject.SetActive(true);
-
-        CatSpawnDelay = Random.Range(0.15f, 7.5f);
-        SpawnedCatNum++;
-    }
-
-    void createSlime()
-    {
-        SlimeEnemyScript tempSlime = Instantiate(SlimePrefab);
-        tempSlime.transform.position = spawnPosition;
-        tempSlime.gameObject.SetActive(false);
-        SlimePool.Enqueue(tempSlime);
-    }
-
-    void createCat()
-    {
-        CatEnemyScript tempCat = Instantiate(CatPrefab);
-        tempCat.transform.position = spawnPosition;
-        tempCat.gameObject.SetActive(false);
-        CatPool.Enqueue(tempCat);
+        cat.gameObject.SetActive(false);
+        CatPool.Enqueue(cat);
     }
 }

@@ -298,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &45491687
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &82800619
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &97404124
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +646,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 97404127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 97404124}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &97404127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,6 +805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &114791402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,6 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &146945022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,7 +1121,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 146945025}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 146945022}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &146945025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1212,7 +1265,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154951158}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 154951155}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &154951158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1332,7 +1409,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 161712394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 161712391}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &161712394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,6 +1795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &231488988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &237115383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,7 +1974,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 237115386}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 237115383}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &237115386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,7 +2118,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 310135750}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 310135747}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &310135750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2111,7 +2262,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 336677525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 336677522}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &336677525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,6 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &357420618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2342,6 +2518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &376714099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2571,6 +2748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &424582808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2841,6 +3019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &532410710
 GameObject:
   m_ObjectHideFlags: 0
@@ -3011,7 +3190,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 587979138}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 587979135}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &587979138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,7 +3510,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 631138367}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 631138364}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &631138367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3518,6 +3745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &664878581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3747,6 +3975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &680657806
 GameObject:
   m_ObjectHideFlags: 0
@@ -3843,6 +4072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &688130185
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,6 +4252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &694502832
 GameObject:
   m_ObjectHideFlags: 0
@@ -4118,6 +4349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &706050574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4214,6 +4446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &714935321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,7 +4528,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 714935324}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 714935321}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &714935324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4415,7 +4672,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 745060976}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 745060973}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &745060976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4535,7 +4816,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 752358244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 752358241}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &752358244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4655,7 +4960,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 770565485}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 770565482}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &770565485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4775,7 +5104,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 814978290}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 814978287}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &814978290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4895,7 +5248,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 825957339}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 825957336}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &825957339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5015,7 +5392,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 826085039}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 826085036}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &826085039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5135,7 +5536,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 839248779}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 839248776}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &839248779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5270,6 +5695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &843489439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,6 +5941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &868489392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5611,6 +6038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &880680618
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,6 +6135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &883282218
 GameObject:
   m_ObjectHideFlags: 0
@@ -5788,7 +6217,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883282221}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 883282218}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &883282221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5923,6 +6376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &894912822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6079,7 +6533,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 906706505}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 906706502}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &906706505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6199,7 +6677,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 941170260}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 941170257}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &941170260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6334,6 +6836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &977202992
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,7 +6918,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 977202995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 977202992}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &977202995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6535,7 +7062,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1069548546}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1069548543}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1069548546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6655,7 +7206,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1079244619}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1079244616}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1079244619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6996,6 +7571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1216083841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7121,7 +7697,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1257492360}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1257492357}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1257492360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7324,7 +7924,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1280434825}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1280434822}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1280434825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7516,7 +8140,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1310244503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1310244500}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1310244503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7636,7 +8284,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1321562096}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1321562093}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1321562096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7771,6 +8443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1382094841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7989,6 +8662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1410812051
 GameObject:
   m_ObjectHideFlags: 0
@@ -8070,7 +8744,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1410812054}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1410812051}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1410812054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9212,7 +9910,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1570566597}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1570566594}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1570566597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9332,7 +10054,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1599419503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1599419500}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1599419503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9500,6 +10246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1677498095
 GameObject:
   m_ObjectHideFlags: 0
@@ -9672,6 +10419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1736972639
 GameObject:
   m_ObjectHideFlags: 0
@@ -9886,7 +10634,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1749869503}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1749869500}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1749869503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10006,7 +10778,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1753823476}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1753823473}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1753823476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10126,7 +10922,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764839139}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1764839136}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1764839139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10261,6 +11081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1775495801
 GameObject:
   m_ObjectHideFlags: 0
@@ -10357,6 +11178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1782125740
 GameObject:
   m_ObjectHideFlags: 0
@@ -10453,6 +11275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1782233100
 GameObject:
   m_ObjectHideFlags: 0
@@ -10549,6 +11372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1784140388
 GameObject:
   m_ObjectHideFlags: 0
@@ -10630,7 +11454,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1784140391}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1784140388}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1784140391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10826,7 +11674,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1793892378}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1793892375}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1793892378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10961,6 +11833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1812207635
 GameObject:
   m_ObjectHideFlags: 0
@@ -11155,7 +12028,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1840121519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1840121516}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1840121519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11476,6 +12373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1852002286
 GameObject:
   m_ObjectHideFlags: 0
@@ -11572,6 +12470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1882816260
 GameObject:
   m_ObjectHideFlags: 0
@@ -11653,7 +12552,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1882816263}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1882816260}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1882816263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11788,6 +12711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1914962768
 GameObject:
   m_ObjectHideFlags: 0
@@ -11869,7 +12793,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1914962771}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1914962768}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1914962771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12004,6 +12952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1927647394
 GameObject:
   m_ObjectHideFlags: 0
@@ -12314,7 +13263,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1941032155}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1941032152}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1941032155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12528,6 +13501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1969128227
 GameObject:
   m_ObjectHideFlags: 0
@@ -12757,6 +13731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &1995329966
 GameObject:
   m_ObjectHideFlags: 0
@@ -18940,6 +19915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &2021312971
 GameObject:
   m_ObjectHideFlags: 0
@@ -19036,6 +20012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &2021496587
 GameObject:
   m_ObjectHideFlags: 0
@@ -19117,7 +20094,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2021496590}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2021496587}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2021496590
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19237,7 +20238,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2044784303}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2044784300}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2044784303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19357,7 +20382,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2059724847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2059724844}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2059724847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19492,6 +20541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &2092932391
 GameObject:
   m_ObjectHideFlags: 0
@@ -19594,6 +20644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InventoryObject: {fileID: 532410710}
   ButtonObj: {fileID: 1736972639}
+  PlaceableGrids: {fileID: 0}
 --- !u!1 &2116568101
 GameObject:
   m_ObjectHideFlags: 0
@@ -19765,6 +20816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 263316b67b4de6f459491ba9b66b14fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlaceableGrids: {fileID: 854485392}
 --- !u!1 &2128915711
 GameObject:
   m_ObjectHideFlags: 0
@@ -19846,7 +20898,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2128915714}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1987989611}
+        m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
+        m_MethodName: PlacePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2128915711}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2128915714
 MonoBehaviour:
   m_ObjectHideFlags: 0

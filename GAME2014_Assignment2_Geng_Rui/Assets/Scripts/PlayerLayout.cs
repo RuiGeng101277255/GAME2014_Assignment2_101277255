@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerLayout : MonoBehaviour
 {
+    public GameObject PlaceableGrids;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,15 @@ public class PlayerLayout : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void SetPlayerType (AttackTypes type)
+    {
+        //spawn player
+
+
+
+        //...
+        //PlaceableGrids.SetActive(false);
     }
 }

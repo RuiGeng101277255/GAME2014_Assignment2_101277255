@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6746692565647207775}
   - component: {fileID: 6746692565647207772}
   m_Layer: 0
-  m_Name: rifle_1
+  m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 6746692566624841709}
   - component: {fileID: 6746692566624841706}
   m_Layer: 0
-  m_Name: muzzleflash_1
+  m_Name: Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

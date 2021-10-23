@@ -301,10 +301,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &45491687
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,10 +473,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -135
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &82800619
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,10 +573,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &97404124
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,10 +817,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &121935808
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,10 +917,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &146945022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,7 +1000,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 17063753}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -1159,7 +1144,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 842123687}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -1303,7 +1288,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 662863491}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -1691,10 +1676,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -90
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &231488988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,10 +1776,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &237115383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1859,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 953562210}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -2024,7 +2003,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 82800622}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -2168,7 +2147,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 880680621}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -2327,12 +2306,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  ZRot: 0
+  ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &357420618
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,10 +2408,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &376714099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,10 +2641,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &424582808
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,6 +2783,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c21cb881e1a668648a257b8945c7938e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
+  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
+  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
+  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
 --- !u!1 &497698833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,10 +2962,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &532410710
 GameObject:
   m_ObjectHideFlags: 0
@@ -3163,7 +3134,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1945433718}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -3379,7 +3350,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 81016280}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -3616,10 +3587,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &664878581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3852,10 +3820,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &680657806
 GameObject:
   m_ObjectHideFlags: 0
@@ -3955,10 +3920,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &688130185
 GameObject:
   m_ObjectHideFlags: 0
@@ -4141,10 +4103,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -45
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &694502832
 GameObject:
   m_ObjectHideFlags: 0
@@ -4244,10 +4203,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &706050574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4347,10 +4303,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &714935321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4433,7 +4386,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1775495804}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -4577,7 +4530,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 231488991}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -4721,7 +4674,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 694502835}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -4865,7 +4818,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 680657809}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -5009,7 +4962,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 706050577}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -5153,7 +5106,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1405942908}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -5297,7 +5250,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 352495737}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -5441,7 +5394,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1908684351}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -5602,10 +5555,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &843489439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5854,10 +5804,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &868489392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5957,10 +5904,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &880680618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6060,10 +6004,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &883282218
 GameObject:
   m_ObjectHideFlags: 0
@@ -6146,7 +6087,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 676379374}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -6307,10 +6248,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &894912822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6468,7 +6406,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1660115741}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -6612,7 +6550,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 103167163}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -6773,10 +6711,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 45
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &977202992
 GameObject:
   m_ObjectHideFlags: 0
@@ -6859,7 +6794,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 2014475537}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -7003,7 +6938,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 357420621}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -7147,7 +7082,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 868489395}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -7514,10 +7449,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1216083841
 GameObject:
   m_ObjectHideFlags: 0
@@ -7644,7 +7576,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1782125743}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -7871,7 +7803,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1360616042}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -8087,7 +8019,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 2021312974}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -8231,7 +8163,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1850610817}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -8392,10 +8324,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1382094841
 GameObject:
   m_ObjectHideFlags: 0
@@ -8617,10 +8546,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1410812051
 GameObject:
   m_ObjectHideFlags: 0
@@ -8703,7 +8629,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 690889933}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -9869,7 +9795,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1679016237}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -10013,7 +9939,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1121136156}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -10207,10 +10133,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1677498095
 GameObject:
   m_ObjectHideFlags: 0
@@ -10386,10 +10309,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1736972639
 GameObject:
   m_ObjectHideFlags: 0
@@ -10605,7 +10525,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 390134810}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -10749,7 +10669,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 892436664}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -10893,7 +10813,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 2123065829}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -11054,10 +10974,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1775495801
 GameObject:
   m_ObjectHideFlags: 0
@@ -11157,10 +11074,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 90
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1782125740
 GameObject:
   m_ObjectHideFlags: 0
@@ -11260,10 +11174,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -135
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1782233100
 GameObject:
   m_ObjectHideFlags: 0
@@ -11363,10 +11274,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -90
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1784140388
 GameObject:
   m_ObjectHideFlags: 0
@@ -11449,7 +11357,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 866955094}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -11669,7 +11577,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1782233103}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -11830,10 +11738,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1812207635
 GameObject:
   m_ObjectHideFlags: 0
@@ -12029,7 +11934,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1805265327}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -12376,10 +12281,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1852002286
 GameObject:
   m_ObjectHideFlags: 0
@@ -12479,10 +12381,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 45
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1882816260
 GameObject:
   m_ObjectHideFlags: 0
@@ -12565,7 +12464,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 531191594}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -12726,10 +12625,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1914962768
 GameObject:
   m_ObjectHideFlags: 0
@@ -12812,7 +12708,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1852002289}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -12973,10 +12869,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1927647394
 GameObject:
   m_ObjectHideFlags: 0
@@ -13288,7 +13181,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1922448589}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -13528,10 +13421,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1969128227
 GameObject:
   m_ObjectHideFlags: 0
@@ -13764,10 +13654,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &1995329966
 GameObject:
   m_ObjectHideFlags: 0
@@ -19954,10 +19841,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 0
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &2021312971
 GameObject:
   m_ObjectHideFlags: 0
@@ -20057,10 +19941,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 180
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &2021496587
 GameObject:
   m_ObjectHideFlags: 0
@@ -20143,7 +20024,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 121935811}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -20287,7 +20168,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 203882860}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -20431,7 +20312,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 1773689324}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1
@@ -20592,10 +20473,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: 90
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &2092932391
 GameObject:
   m_ObjectHideFlags: 0
@@ -20873,10 +20751,7 @@ MonoBehaviour:
   PlaceableGrids: {fileID: 854485392}
   ZRot: -45
   Flip: 0
-  Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
-  Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
-  Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
-  Bomb: {fileID: 7661503975018010316, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}
+  manager: {fileID: 493161882}
 --- !u!1 &2128915711
 GameObject:
   m_ObjectHideFlags: 0
@@ -20959,7 +20834,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1987989611}
+      - m_Target: {fileID: 2079344773}
         m_TargetAssemblyTypeName: PlayerLayout, Assembly-CSharp
         m_MethodName: PlacePlayer
         m_Mode: 1

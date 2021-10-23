@@ -7,10 +7,7 @@ public class PlayerLayout : MonoBehaviour
     public GameObject PlaceableGrids;
     public float ZRot;
     public bool Flip = false;
-    public PlayerAttackScript Scythe;
-    public PlayerAttackScript Hammer;
-    public PlayerAttackScript Rifle;
-    public PlayerAttackScript Bomb;
+    public PlayerManager manager;
 
     private SpriteRenderer spriteR;
     private AttackTypes setType;
@@ -41,39 +38,7 @@ public class PlayerLayout : MonoBehaviour
 
     public void PlacePlayer()
     {
-        Debug.Log("Clicked");
-        spriteR.color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
-        
-        if (setType != AttackTypes.NONE)
-        {
-            PlayerAttackScript attack = null;
-
-            switch (setType)
-            {
-                case AttackTypes.SCYTHE:
-                    attack = MonoBehaviour.Instantiate(Scythe);
-                    break;
-                case AttackTypes.HAMMER:
-                    attack = MonoBehaviour.Instantiate(Hammer);
-                    break;
-                case AttackTypes.RIFLE:
-                    attack = MonoBehaviour.Instantiate(Rifle);
-                    break;
-                case AttackTypes.BOMB:
-                    attack = MonoBehaviour.Instantiate(Bomb);
-                    break;
-            }
-
-            if (attack != null)
-            {
-                attack.transform.SetParent(transform);
-                //attack.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-                attack.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), ZRot);
-                attack.gameObject.SetActive(true);
-            }
-        }
-        
-
-        //Destroy(this);
+        Debug.Log(transform.position);
+        manager.PlacePlayer(transform.position, ZRot);
     }
 }

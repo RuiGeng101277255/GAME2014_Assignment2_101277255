@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerLayout : MonoBehaviour
 {
     public GameObject PlaceableGrids;
-    public Vector2 RowColNum;
+    public float ZRot;
+    public bool Flip = false;
     public PlayerAttackScript Scythe;
     public PlayerAttackScript Hammer;
     public PlayerAttackScript Rifle;
@@ -18,7 +19,7 @@ public class PlayerLayout : MonoBehaviour
     void Start()
     {
         spriteR = GetComponent<SpriteRenderer>();
-        setType = AttackTypes.NONE;
+        setType = AttackTypes.SCYTHE;
     }
 
     // Update is called once per frame
@@ -43,19 +44,36 @@ public class PlayerLayout : MonoBehaviour
         Debug.Log("Clicked");
         spriteR.color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
         
-        if ((setType != AttackTypes.NONE) && (setType != null))
+        if (setType != AttackTypes.NONE)
         {
+            PlayerAttackScript attack = null;
+
             switch (setType)
             {
                 case AttackTypes.SCYTHE:
-                    var tempNewPlayer = MonoBehaviour.Instantiate(Scythe);
-                    //set orientation and active
+                    attack = MonoBehaviour.Instantiate(Scythe);
                     break;
+                case AttackTypes.HAMMER:
+                    attack = MonoBehaviour.Instantiate(Hammer);
+                    break;
+                case AttackTypes.RIFLE:
+                    attack = MonoBehaviour.Instantiate(Rifle);
+                    break;
+                case AttackTypes.BOMB:
+                    attack = MonoBehaviour.Instantiate(Bomb);
+                    break;
+            }
 
+            if (attack != null)
+            {
+                attack.transform.SetParent(transform);
+                //attack.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+                attack.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), ZRot);
+                attack.gameObject.SetActive(true);
             }
         }
         
 
-        Destroy(this);
+        //Destroy(this);
     }
 }

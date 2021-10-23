@@ -299,7 +299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -473,7 +474,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -135
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -575,7 +577,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -821,7 +824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -923,7 +927,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -1684,7 +1689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -90
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -1786,7 +1792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -2320,7 +2327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -2422,7 +2430,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -2657,7 +2666,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -2760,6 +2770,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &493161880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493161881}
+  - component: {fileID: 493161882}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493161881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493161880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &493161882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493161880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21cb881e1a668648a257b8945c7938e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &497698833
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,7 +2986,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -3560,7 +3614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -3795,7 +3850,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -3897,7 +3953,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -4082,7 +4139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -45
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -4184,7 +4242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -4286,7 +4345,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -5540,7 +5600,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -5692,7 +5753,7 @@ Transform:
   - {fileID: 892436662}
   - {fileID: 352495735}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &866955091
 GameObject:
@@ -5791,7 +5852,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -5893,7 +5955,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -5995,7 +6058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -6241,7 +6305,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -6706,7 +6771,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 45
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -7446,7 +7512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -8323,7 +8390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -8547,7 +8615,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -10136,7 +10205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -10314,7 +10384,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -10981,7 +11052,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -11083,7 +11155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 90
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -11185,7 +11258,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -135
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -11287,7 +11361,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -90
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -11753,7 +11828,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -12298,7 +12374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -12400,7 +12477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 45
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -12646,7 +12724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -12892,7 +12971,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -13446,7 +13526,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -13681,7 +13762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -19870,7 +19952,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 0
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -19972,7 +20055,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 180
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -20506,7 +20590,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: 90
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -20786,7 +20871,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
-  RowColNum: {x: 0, y: 0}
+  ZRot: -45
+  Flip: 0
   Scythe: {fileID: 5083274267029161121, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
   Hammer: {fileID: 6210738174977567889, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
   Rifle: {fileID: 1363925577, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
@@ -20935,279 +21021,3 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128915711}
   m_CullTransparentMesh: 1
---- !u!1001 &5083274266942625615
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161122, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5083274267029161125, guid: cd2a324388303bf4e84fc379f91e7ba9,
-        type: 3}
-      propertyPath: m_Name
-      value: Scythe
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cd2a324388303bf4e84fc379f91e7ba9, type: 3}
---- !u!1001 &6210738173554140886
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567891, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6210738174977567893, guid: 7c0cdae8b21e3f1498683ca1e6f45444,
-        type: 3}
-      propertyPath: m_Name
-      value: Hammer
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7c0cdae8b21e3f1498683ca1e6f45444, type: 3}
---- !u!1001 &6746692565304209926
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293900, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6746692566633293902, guid: f12fa27753a1af540a990e6edc9f6823,
-        type: 3}
-      propertyPath: m_Name
-      value: Rifle
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f12fa27753a1af540a990e6edc9f6823, type: 3}
---- !u!1001 &7661503974858185539
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 7661503975018010317, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_Name
-      value: Bomb
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7661503975018010321, guid: 9bbe9288bf7ef6543a6127068602fe52,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9bbe9288bf7ef6543a6127068602fe52, type: 3}

@@ -35,9 +35,15 @@ public class UIScoresNItemsScript : MonoBehaviour
     private List<int> rifleCosts = new List<int> { 3, 2, 4 };
     private List<int> bombCosts = new List<int> { 3, 4, 5 };
 
+    //Sfx
+    private AudioSource sfx;
+    private bool hasBasedExploded;
+
     // Start is called before the first frame update
     void Start()
     {
+        sfx = GetComponent<AudioSource>();
+
         //Initial values
         scoreNum = 0;
         coinNum = 0;
@@ -45,6 +51,7 @@ public class UIScoresNItemsScript : MonoBehaviour
         potionNum = 0;
         MaxHealth = 100;
         CurrentHealth = MaxHealth;
+        hasBasedExploded = false;
 
         setTextContent();
     }
@@ -55,7 +62,7 @@ public class UIScoresNItemsScript : MonoBehaviour
         setTextContent();
 
         //If player dies, then a stream writer is used to write the score into Score.txt file, so that the gameover scene loaded in the next lines can access it without this scene's information.
-        if (CurrentHealth <= 0)
+        if ((CurrentHealth <= 0) && hasBasedExploded && (!sfx.isPlaying))
         {
             StreamWriter scoreWriter = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
             scoreWriter.WriteLine(scoreNum);
@@ -98,7 +105,20 @@ public class UIScoresNItemsScript : MonoBehaviour
     public void setDamage(int d)
     {
         //Damages the base
-        CurrentHealth -= d;
+        if (CurrentHealth > d)
+        {
+            CurrentHealth -= d;
+        }
+        else
+        {
+            CurrentHealth = 0;
+            
+            if (!hasBasedExploded)
+            {
+                sfx.Play();
+                hasBasedExploded = true;
+            }
+        }    
     }
 
     public int getCoinNum()

@@ -32,6 +32,7 @@ public class PlayerLayout : MonoBehaviour
     {
         //places the player at this grid layout's position along with a rotation so that the player is at the best attack angle
         manager.PlacePlayer(setType, transform.position, ZRot);
+
         //destroys the gameobject so it can't spawn another player on top
         Destroy(gameObject);
 

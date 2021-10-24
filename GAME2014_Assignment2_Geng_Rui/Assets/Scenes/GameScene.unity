@@ -5665,7 +5665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &854485393
 Transform:
   m_ObjectHideFlags: 0
@@ -8838,6 +8838,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 0}
+--- !u!1 &1460051379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460051381}
+  - component: {fileID: 1460051380}
+  m_Layer: 0
+  m_Name: LootManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1460051380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460051379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb0f7c6923662ca4c9eef0d0970cb067, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIInformation: {fileID: 1841995788}
+  coinPrefab: {fileID: 1459105504574790120, guid: f21b5b07e829dd240a0751a35bd8ea0b,
+    type: 3}
+  gemPrefab: {fileID: 2335657967094357692, guid: 6e7c86cab867c9a428b2f9a211acbbdb,
+    type: 3}
+  potionPrefab: {fileID: 3171248847024982060, guid: 14e7323dc78145f43a46a4aed85de473,
+    type: 3}
+--- !u!4 &1460051381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460051379}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1841995787}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1465647089
 GameObject:
   m_ObjectHideFlags: 0
@@ -12124,6 +12174,7 @@ RectTransform:
   - {fileID: 1653002161}
   - {fileID: 1938523924}
   - {fileID: 1566001939}
+  - {fileID: 1460051381}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12148,7 +12199,7 @@ MonoBehaviour:
   coins: {fileID: 1842404231}
   gems: {fileID: 1944742390}
   potions: {fileID: 1934269938}
-  health: {fileID: 0}
+  health: {fileID: 1566001940}
 --- !u!1 &1842404229
 GameObject:
   m_ObjectHideFlags: 0
@@ -12219,7 +12270,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 0
+  m_Text: '0
+
+'
 --- !u!222 &1842404232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13062,7 +13115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 0
+  m_Text: 0
 --- !u!222 &1934269939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13363,7 +13416,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 0
+  m_Text: 0
 --- !u!222 &1944742391
 CanvasRenderer:
   m_ObjectHideFlags: 0

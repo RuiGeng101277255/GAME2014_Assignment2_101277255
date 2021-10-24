@@ -9,7 +9,7 @@ public class UIScoresNItemsScript : MonoBehaviour
     public Text coins;
     public Text gems;
     public Text potions;
-    public GameObject health;
+    public Text health;
 
     private int scoreNum;
     private int coinNum;
@@ -48,6 +48,8 @@ public class UIScoresNItemsScript : MonoBehaviour
         coins.text = coinNum.ToString();
         gems.text = gemNum.ToString();
         potions.text = potionNum.ToString();
+        health.text = "Health: " + CurrentHealth;
+        health.color = new Color((1.0f - CurrentHealth/MaxHealth), CurrentHealth/MaxHealth, 0.0f, 1.0f);
     }
 
     public void addScore(int s)

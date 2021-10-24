@@ -299,6 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -471,6 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -135
   Flip: 0
   manager: {fileID: 493161882}
@@ -571,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -815,6 +818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -915,6 +919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -1674,6 +1679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -90
   Flip: 0
   manager: {fileID: 493161882}
@@ -1774,6 +1780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -2306,6 +2313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -2406,6 +2414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -2639,6 +2648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -2960,6 +2970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -3585,6 +3596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -3818,6 +3830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -3918,6 +3931,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -4101,6 +4115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -45
   Flip: 0
   manager: {fileID: 493161882}
@@ -4201,6 +4216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -4301,6 +4317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -5553,6 +5570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -5802,6 +5820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -5902,6 +5921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -6002,6 +6022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -6246,6 +6267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -6709,6 +6731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 45
   Flip: 0
   manager: {fileID: 493161882}
@@ -7447,6 +7470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -8322,6 +8346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -8544,6 +8569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -10131,6 +10157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -10307,6 +10334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -10972,6 +11000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -11072,6 +11101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 90
   Flip: 0
   manager: {fileID: 493161882}
@@ -11172,6 +11202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -135
   Flip: 0
   manager: {fileID: 493161882}
@@ -11272,6 +11303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -90
   Flip: 0
   manager: {fileID: 493161882}
@@ -11736,6 +11768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -12279,6 +12312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -12379,6 +12413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 45
   Flip: 0
   manager: {fileID: 493161882}
@@ -12623,6 +12658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -12867,6 +12903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -13419,6 +13456,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -13652,6 +13690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -19839,6 +19878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 0
   Flip: 0
   manager: {fileID: 493161882}
@@ -19939,6 +19979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 180
   Flip: 0
   manager: {fileID: 493161882}
@@ -20471,6 +20512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: 90
   Flip: 0
   manager: {fileID: 493161882}
@@ -20750,6 +20792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
   ZRot: -45
   Flip: 0
   manager: {fileID: 493161882}

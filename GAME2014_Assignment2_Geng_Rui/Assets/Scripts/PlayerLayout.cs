@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerLayout : MonoBehaviour
 {
     public GameObject PlaceableGrids;
+    public GameObject GridButtons;
     public float ZRot;
     public bool Flip = false;
     public PlayerManager manager;
@@ -40,5 +41,8 @@ public class PlayerLayout : MonoBehaviour
     {
         manager.PlacePlayer(setType, transform.position, ZRot);
         Destroy(gameObject);
+
+        PlaceableGrids.SetActive(false);
+        GridButtons.SetActive(false);
     }
 }

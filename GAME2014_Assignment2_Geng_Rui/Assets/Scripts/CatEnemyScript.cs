@@ -3,7 +3,7 @@
  File Name: CatEnemyScript.cs
  Last Modified: October 24th, 2021
  Description: This is the core structed of the cat type enemy
- Version History: v1.09 Cleaned Up Codes and Comments
+ Version History: v1.10 added max health variable so cats become harder to kill as they die
  */
 
 using System.Collections;
@@ -23,6 +23,7 @@ public class CatEnemyScript : MonoBehaviour
     //Cat status
     bool isMoving;
     int Health;
+    int MaxHealth;
     int DamageStrength;
     int catWorth;
     Vector2 moveDirection;
@@ -43,6 +44,7 @@ public class CatEnemyScript : MonoBehaviour
 
         isMoving = true;
         Health = 500;
+        MaxHealth = Health;
         DamageStrength = 60;
         catWorth = 350;
         moveDirection = new Vector2(1.0f, 0.0f);
@@ -89,7 +91,8 @@ public class CatEnemyScript : MonoBehaviour
     public void CatDeath()
     {
         //destroy cat and spawns some loot
-        Health = 100;
+        MaxHealth += 200;
+        Health = MaxHealth;
         manager.returnCat(this);
     }
 

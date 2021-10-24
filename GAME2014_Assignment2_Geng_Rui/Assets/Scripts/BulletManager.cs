@@ -90,7 +90,7 @@ public class BulletManager : MonoBehaviour
         //spawns a new bomb
         ProjectileScript tempBomb = null;
 
-        if (bulletQueue.Count < 1)
+        if (bombQueue.Count < 1)
         {
             //if the queue is empty, then create a new bomb
             tempBomb = Instantiate(bombPrefab);

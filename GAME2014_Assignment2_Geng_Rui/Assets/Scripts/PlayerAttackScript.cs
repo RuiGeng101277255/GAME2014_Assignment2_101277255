@@ -59,7 +59,7 @@ public class PlayerAttackScript : MonoBehaviour
         bulletManager.spawnBullet(transform.position, playerRotation, AttackDamage);
 
         //Bullet shooting intervals
-        currentTimeInterval = 0.25f;
+        currentTimeInterval = 0.5f;
     }
 
     void bombAttack()

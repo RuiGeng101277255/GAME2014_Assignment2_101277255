@@ -21,6 +21,25 @@ public class ProjectileScript : MonoBehaviour
     private CapsuleCollider2D projCollider;
     private int ProjDamage = 0;
 
+    private Animator anim;
+    private AudioSource audio;
+    private BulletManager manager;
+    private bool hasExploded;
+
+    private float explosionTime;
+    private float currentTime;
+
+    private void Start()
+    {
+        anim = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
+        manager = FindObjectOfType<BulletManager>();
+        hasExploded = false;
+
+        explosionTime = 0.75f;
+        currentTime = explosionTime;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -29,6 +48,46 @@ public class ProjectileScript : MonoBehaviour
         if (ProjectileType == "bullet")
         {
             updateBullet();
+        }
+        else if (ProjectileType == "bomb")
+        {
+            if (currentTime > 0.0f)
+            {
+                currentTime -= Time.deltaTime;
+            }
+            else
+            {
+                if (!hasExploded)
+                {
+                    audio.Play();
+                    hasExploded = true;
+                }
+                else
+                {
+                    if (!audio.isPlaying)
+                    {
+                        hasExploded = false;
+                        currentTime = explosionTime;
+                        manager.returnBomb(this);
+                    }
+                }    
+            }
+            //if ((!anim.enabled))
+            //{
+            //    if (!hasExploded)
+            //    {
+            //        audio.Play();
+            //        hasExploded = true;
+            //    }
+            //    else
+            //    {
+            //        if (!audio.isPlaying)
+            //        {
+            //            manager.returnBomb(this);
+            //            hasExploded = false;
+            //        }
+            //    }    
+            //}
         }
     }
 
@@ -64,15 +123,10 @@ public class ProjectileScript : MonoBehaviour
         }
 
         //returns the projectile object to their corresponding queue in bulletmanager
-        var manager = FindObjectOfType<BulletManager>();
 
         if (ProjectileType == "bullet")
         {
             manager.returnBullet(this);
-        }
-        else if (ProjectileType == "bomb")
-        {
-            manager.returnBomb(this);
         }
     }
 }

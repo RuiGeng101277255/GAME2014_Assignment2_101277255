@@ -3,7 +3,7 @@
  File Name: SlimeEnemyScript.cs
  Last Modified: October 24th, 2021
  Description: This is the core structed of the slime type enemy
- Version History: v1.09 Cleaned Up Codes and Comments
+ Version History: v1.10 added max health variable so that enemy will become harder to kill as they die
  */
 
 using System.Collections;
@@ -22,6 +22,7 @@ public class SlimeEnemyScript : MonoBehaviour
     //Slime status
     bool isMoving;
     int Health;
+    int MaxHealth;
     int DamageStrength;
     int slimeWorth;
     Vector2 moveDirection;
@@ -41,6 +42,7 @@ public class SlimeEnemyScript : MonoBehaviour
 
         isMoving = true;
         Health = 100;
+        MaxHealth = Health;
         DamageStrength = 35;
         slimeWorth = 100;
         moveDirection = new Vector2(1.0f, 0.0f);
@@ -86,7 +88,8 @@ public class SlimeEnemyScript : MonoBehaviour
     public void SlimeDeath()
     {
         //destroy cat and spawns some loot
-        Health = 100;
+        MaxHealth += MaxHealth / 2;
+        Health = MaxHealth;
         manager.returnSlime(this);
     }
 

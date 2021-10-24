@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
 
 public class UIScoresNItemsScript : MonoBehaviour
 {
@@ -40,6 +41,14 @@ public class UIScoresNItemsScript : MonoBehaviour
     void Update()
     {
         setTextContent();
+
+        if (CurrentHealth <= 0)
+        {
+            StreamWriter scoreWriter = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
+            scoreWriter.WriteLine(scoreNum);
+            scoreWriter.Close();
+            UnityEngine.SceneManagement.SceneManager.LoadScene("EndScene", UnityEngine.SceneManagement.LoadSceneMode.Single);
+        }
     }
 
     void setTextContent()

@@ -51,15 +51,6 @@ public class PlayerAttackScript : MonoBehaviour
 
         bulletManager.spawnBullet(transform.position, playerRotation);
 
-        //ProjectileScript tempBullet = null; //= bulletManager.getBullet();
-        //tempBullet = bulletManager.getBullet();
-
-        //tempBullet.transform.position = transform.position;
-        //tempBullet.transform.SetParent(transform);
-        //tempBullet.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), playerRotation);
-        //tempBullet.setDirection(new Vector3(Mathf.Sin(playerRotation), -Mathf.Cos(playerRotation), 0.0f));
-        //tempBullet.gameObject.SetActive(true);
-
         currentTimeInterval = 0.25f;
     }
 
@@ -67,9 +58,9 @@ public class PlayerAttackScript : MonoBehaviour
     {
         bulletManager = FindObjectOfType<BulletManager>();
 
-        bulletManager.spawnBomb(transform.position);
+        bulletManager.spawnBomb(transform.position, playerRotation);
 
-        currentTimeInterval = 0.25f;
+        currentTimeInterval = 5.0f;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

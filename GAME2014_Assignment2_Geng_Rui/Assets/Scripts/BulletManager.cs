@@ -75,27 +75,57 @@ public class BulletManager : MonoBehaviour
         }
     }
 
-    public ProjectileScript getBullet()
+    public void spawnBomb(Vector3 position, float zRotation)
     {
-        ProjectileScript tempBullet = null;
+        ProjectileScript tempBomb = null;
 
         if (bulletQueue.Count < 1)
         {
-            tempBullet = Instantiate(bulletPrefab);
-            tempBullet.transform.SetParent(transform);
-            tempBullet.gameObject.SetActive(false);
+            tempBomb = Instantiate(bombPrefab);
+            tempBomb.transform.SetParent(transform);
+            tempBomb.gameObject.SetActive(false);
         }
         else
         {
-            tempBullet = bulletQueue.Dequeue();
+            tempBomb = bombQueue.Dequeue();
         }
 
-        return tempBullet;
-    }
+        if (tempBomb != null)
+        {
+            Debug.Log(tempBomb);
 
-    public void spawnBomb(Vector3 position)
-    {
+            if (zRotation == 0.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(0.0f, 1.0f, 0.0f);
+            }
+            else if (zRotation == -45.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(0.5f, 0.5f, 0.0f);
+            }
+            else if (zRotation == 45.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(-0.5f, 1.0f, 0.0f);
+            }
+            else if (zRotation == -90.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(0.5f, 0.25f, 0.0f);
+            }
+            else if (zRotation == 90.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(-0.5f, 0.25f, 0.0f);
+            }
+            else if (zRotation == -135.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(0.5f, -0.0f, 0.0f);
+            }
+            else if (zRotation == 180.0f)
+            {
+                tempBomb.transform.position = position - new Vector3(0.0f, -0.15f, 0.0f);
+            }
 
+            //tempBullet.setDirection(new Vector3(Mathf.Sin(zRotation / (2.0f * Mathf.PI)), -Mathf.Cos(zRotation / (2.0f * Mathf.PI)), 0.0f));
+            tempBomb.gameObject.SetActive(true);
+        }
     }
 
     public void returnBullet(ProjectileScript bullet)

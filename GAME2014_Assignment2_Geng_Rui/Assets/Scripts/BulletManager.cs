@@ -43,7 +43,34 @@ public class BulletManager : MonoBehaviour
             Debug.Log(tempBullet);
             tempBullet.transform.position = position;
             tempBullet.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), zRotation);
-            tempBullet.setDirection(new Vector3(Mathf.Sin(zRotation), -Mathf.Cos(zRotation), 0.0f));
+            //tempBullet.setDirection(new Vector3(0.0f, -1.0f, 0.0f));
+            if (zRotation == 0.0f)
+            {
+                tempBullet.setDirection(new Vector3(0.0f, -1.0f, 0.0f));
+            }
+            else if(zRotation == -45.0f)
+            {
+                tempBullet.setDirection(new Vector3(-0.5f, -0.5f, 0.0f));
+
+            }
+            else if (zRotation == 45.0f)
+            {
+                tempBullet.setDirection(new Vector3(0.5f, -0.5f, 0.0f));
+            }
+            else if (zRotation == -90.0f)
+            {
+                tempBullet.setDirection(new Vector3(-1.0f, 0.0f, 0.0f));
+            }
+            else if (zRotation == 90.0f)
+            {
+                tempBullet.setDirection(new Vector3(1.0f, 0.0f, 0.0f));
+            }
+            else if (zRotation == -135.0f)
+            {
+                tempBullet.setDirection(new Vector3(-0.5f, 0.5f, 0.0f));
+            }
+
+            //tempBullet.setDirection(new Vector3(Mathf.Sin(zRotation / (2.0f * Mathf.PI)), -Mathf.Cos(zRotation / (2.0f * Mathf.PI)), 0.0f));
             tempBullet.gameObject.SetActive(true);
         }
     }

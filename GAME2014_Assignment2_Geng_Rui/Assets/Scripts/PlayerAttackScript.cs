@@ -16,7 +16,7 @@ public class PlayerAttackScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerRotation = 0.0f;
+        //playerRotation = 0.0f;
         //manager = GetComponent<BulletManager>();
     }
 
@@ -65,7 +65,11 @@ public class PlayerAttackScript : MonoBehaviour
 
     void bombAttack()
     {
+        bulletManager = FindObjectOfType<BulletManager>();
 
+        bulletManager.spawnBomb(transform.position);
+
+        currentTimeInterval = 0.25f;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

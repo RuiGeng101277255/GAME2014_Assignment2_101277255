@@ -14,7 +14,7 @@ public class ProjectileScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        direction = new Vector3(0.0f, -1.0f, 0.0f);
+        //direction = new Vector3(0.0f, -1.0f, 0.0f);
         //projCollider = GetComponent<CapsuleCollider2D>();
     }
 

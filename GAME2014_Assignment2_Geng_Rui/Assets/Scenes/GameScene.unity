@@ -375,6 +375,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 1299716279}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &81016277
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 1465647092}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &174478562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1499,6 +1503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 174201414}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &176642062
 GameObject:
   m_ObjectHideFlags: 0
@@ -3279,6 +3285,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 174478565}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &631138364
 GameObject:
   m_ObjectHideFlags: 0
@@ -8011,6 +8019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 597986055}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &1310244500
 GameObject:
   m_ObjectHideFlags: 0
@@ -8888,6 +8898,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 0}
+  isLastBox: 1
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &1465647089
 GameObject:
   m_ObjectHideFlags: 0
@@ -8960,6 +8972,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 1927647397}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &1496556965
 GameObject:
   m_ObjectHideFlags: 0
@@ -13043,6 +13057,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 2092932392}
   nextBox: {fileID: 1459965174}
+  isLastBox: 0
+  UIInfo: {fileID: 1841995788}
 --- !u!1 &1934269936
 GameObject:
   m_ObjectHideFlags: 0

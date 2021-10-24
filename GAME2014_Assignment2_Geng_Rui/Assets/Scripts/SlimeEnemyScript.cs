@@ -12,6 +12,7 @@ public class SlimeEnemyScript : MonoBehaviour
 
     bool isMoving;
     int Health;
+    int DamageStrength;
     Vector2 moveDirection;
 
     EnemyManager manager;
@@ -27,6 +28,7 @@ public class SlimeEnemyScript : MonoBehaviour
 
         isMoving = true;
         Health = 100;
+        DamageStrength = 35;
         moveDirection = new Vector2(1.0f, 0.0f);
     }
 
@@ -56,8 +58,12 @@ public class SlimeEnemyScript : MonoBehaviour
     {
         Health -= damage;
     }
+    public int getSlimeDamage()
+    {
+        return DamageStrength;
+    }
 
-    void SlimeDeath()
+    public void SlimeDeath()
     {
         //destroy cat and spawns some loot
         Health = 100;

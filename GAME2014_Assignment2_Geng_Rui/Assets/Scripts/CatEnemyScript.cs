@@ -12,6 +12,7 @@ public class CatEnemyScript : MonoBehaviour
 
     bool isMoving;
     int Health;
+    int DamageStrength;
     Vector2 moveDirection;
 
     EnemyManager manager;
@@ -27,6 +28,7 @@ public class CatEnemyScript : MonoBehaviour
 
         isMoving = true;
         Health = 500;
+        DamageStrength = 60;
         moveDirection = new Vector2(1.0f, 0.0f);
     }
 
@@ -57,7 +59,12 @@ public class CatEnemyScript : MonoBehaviour
         Health -= damage;
     }
 
-    void CatDeath()
+    public int getCatDamage()
+    {
+        return DamageStrength;
+    }
+
+    public void CatDeath()
     {
         //destroy cat and spawns some loot
         Health = 100;

@@ -6,14 +6,18 @@ public class PlayerAttackScript : MonoBehaviour
 {
     public int AttackDamage;
     public float AttackIntervalDuration;
+    public AttackTypes type;
 
     float currentTimeInterval = 0.0f;
     bool canDamage = false;
+    BulletManager bulletManager = null;
+    float playerRotation;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRotation = 0.0f;
+        //manager = GetComponent<BulletManager>();
     }
 
     // Update is called once per frame
@@ -25,11 +29,44 @@ public class PlayerAttackScript : MonoBehaviour
         }
         else
         {
-            canDamage = true;
-            currentTimeInterval = 0.0f;
+            if (type == AttackTypes.RIFLE)
+            {
+                rifleAttack();
+            }
+            else if (type == AttackTypes.BOMB)
+            {
+                bombAttack();
+            }
+            else
+            {
+                canDamage = true;
+                currentTimeInterval = 0.0f;
+            }
         }
     }
 
+    void rifleAttack()
+    {
+        bulletManager = FindObjectOfType<BulletManager>();
+
+        bulletManager.spawnBullet(transform.position, playerRotation);
+
+        //ProjectileScript tempBullet = null; //= bulletManager.getBullet();
+        //tempBullet = bulletManager.getBullet();
+
+        //tempBullet.transform.position = transform.position;
+        //tempBullet.transform.SetParent(transform);
+        //tempBullet.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), playerRotation);
+        //tempBullet.setDirection(new Vector3(Mathf.Sin(playerRotation), -Mathf.Cos(playerRotation), 0.0f));
+        //tempBullet.gameObject.SetActive(true);
+
+        currentTimeInterval = 0.25f;
+    }
+
+    void bombAttack()
+    {
+
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (canDamage)
@@ -50,5 +87,10 @@ public class PlayerAttackScript : MonoBehaviour
                 canDamage = false;
             }
         }
+    }
+
+    public void setRotation(float rot)
+    {
+        playerRotation = rot;
     }
 }

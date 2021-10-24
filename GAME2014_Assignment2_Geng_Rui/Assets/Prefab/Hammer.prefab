@@ -330,6 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackDamage: 500
   AttackIntervalDuration: 2
+  type: 1
 --- !u!70 &8310274517883825499
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -223,3 +223,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AttackDamage: 500
   AttackIntervalDuration: 10
+  type: 3

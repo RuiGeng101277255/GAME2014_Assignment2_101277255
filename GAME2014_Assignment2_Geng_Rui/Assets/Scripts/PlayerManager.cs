@@ -86,6 +86,7 @@ public class PlayerManager : MonoBehaviour
                 //attack.transform.SetParent(transform);
                 //attack.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
                 attack.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), rot);
+                attack.setRotation(rot);
                 attack.gameObject.SetActive(true);
             }
         }

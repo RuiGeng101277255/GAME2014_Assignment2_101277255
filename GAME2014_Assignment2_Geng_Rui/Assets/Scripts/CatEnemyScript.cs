@@ -26,7 +26,7 @@ public class CatEnemyScript : MonoBehaviour
         manager = FindObjectOfType<EnemyManager>();
 
         isMoving = true;
-        Health = 100;
+        Health = 500;
         moveDirection = new Vector2(1.0f, 0.0f);
     }
 

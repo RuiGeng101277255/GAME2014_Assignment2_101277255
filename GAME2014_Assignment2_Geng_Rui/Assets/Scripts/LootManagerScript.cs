@@ -89,7 +89,7 @@ public class LootManagerScript : MonoBehaviour
             tempCoin.gameObject.SetActive(true);
         }
 
-        coinSpawnDelay = Random.Range(0, 5);
+        coinSpawnDelay = Random.Range(5, 10);
 
     }
 
@@ -122,7 +122,7 @@ public class LootManagerScript : MonoBehaviour
             tempGem.gameObject.SetActive(true);
         }
 
-        gemSpawnDelay = Random.Range(0, 10);
+        gemSpawnDelay = Random.Range(7, 10);
     }
 
     void spawnPotion()
@@ -154,7 +154,7 @@ public class LootManagerScript : MonoBehaviour
             tempGem.gameObject.SetActive(true);
         }
 
-        potionSpawnDelay = Random.Range(0, 5);
+        potionSpawnDelay = Random.Range(10, 20);
     }
 
     public void returnCoin(LootScript coin)

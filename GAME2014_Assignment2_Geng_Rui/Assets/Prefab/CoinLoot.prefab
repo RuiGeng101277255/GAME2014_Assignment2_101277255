@@ -146,4 +146,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: coin
-  quantity: 5
+  quantity: 20

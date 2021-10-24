@@ -62,7 +62,7 @@ public class EnemyManager : MonoBehaviour
         tempSlime.gameObject.SetActive(true);
         tempSlime.GetComponent<Rigidbody2D>().position = spawnPosition;
 
-        SlimeSpawnDelay = Random.Range(0.15f, 2.0f);
+        SlimeSpawnDelay = Random.Range(2.0f, 7.0f);
         SpawnedSlimeNum++;
     }
 
@@ -77,7 +77,7 @@ public class EnemyManager : MonoBehaviour
         tempCat.gameObject.SetActive(true);
         tempCat.GetComponent<Rigidbody2D>().position = spawnPosition;
 
-        CatSpawnDelay = Random.Range(0.15f, 5.0f);
+        CatSpawnDelay = Random.Range(4.5f, 10.0f);
         SpawnedCatNum++;
     }
 

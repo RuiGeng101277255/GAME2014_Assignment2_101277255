@@ -11,7 +11,6 @@ public class SlimeEnemyScript : MonoBehaviour
     SpriteRenderer SlimeSprite;
 
     bool isMoving;
-    [SerializeField]
     int Health;
     Vector2 moveDirection;
 

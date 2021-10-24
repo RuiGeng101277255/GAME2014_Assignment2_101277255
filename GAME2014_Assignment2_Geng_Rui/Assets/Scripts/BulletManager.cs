@@ -23,7 +23,7 @@ public class BulletManager : MonoBehaviour
         
     }
 
-    public void spawnBullet(Vector3 position, float zRotation)
+    public void spawnBullet(Vector3 position, float zRotation, int damage)
     {
         ProjectileScript tempBullet = null;
 
@@ -70,12 +70,13 @@ public class BulletManager : MonoBehaviour
                 tempBullet.setDirection(new Vector3(-0.5f, 0.5f, 0.0f));
             }
 
+            tempBullet.setProjectileDamage(damage);
             //tempBullet.setDirection(new Vector3(Mathf.Sin(zRotation / (2.0f * Mathf.PI)), -Mathf.Cos(zRotation / (2.0f * Mathf.PI)), 0.0f));
             tempBullet.gameObject.SetActive(true);
         }
     }
 
-    public void spawnBomb(Vector3 position, float zRotation)
+    public void spawnBomb(Vector3 position, float zRotation, int damage)
     {
         ProjectileScript tempBomb = null;
 
@@ -123,6 +124,7 @@ public class BulletManager : MonoBehaviour
                 tempBomb.transform.position = position - new Vector3(0.0f, -0.15f, 0.0f);
             }
 
+            tempBomb.setProjectileDamage(damage);
             //tempBullet.setDirection(new Vector3(Mathf.Sin(zRotation / (2.0f * Mathf.PI)), -Mathf.Cos(zRotation / (2.0f * Mathf.PI)), 0.0f));
             tempBomb.gameObject.SetActive(true);
         }

@@ -49,7 +49,7 @@ public class PlayerAttackScript : MonoBehaviour
     {
         bulletManager = FindObjectOfType<BulletManager>();
 
-        bulletManager.spawnBullet(transform.position, playerRotation);
+        bulletManager.spawnBullet(transform.position, playerRotation, AttackDamage);
 
         currentTimeInterval = 0.25f;
     }
@@ -58,7 +58,7 @@ public class PlayerAttackScript : MonoBehaviour
     {
         bulletManager = FindObjectOfType<BulletManager>();
 
-        bulletManager.spawnBomb(transform.position, playerRotation);
+        bulletManager.spawnBomb(transform.position, playerRotation, AttackDamage);
 
         currentTimeInterval = 5.0f;
     }

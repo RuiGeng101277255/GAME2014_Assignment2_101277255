@@ -10,6 +10,7 @@ public class ProjectileScript : MonoBehaviour
     private float bulletSpeed = 5.0f;
 
     private CapsuleCollider2D projCollider;
+    private int ProjDamage = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -46,14 +47,26 @@ public class ProjectileScript : MonoBehaviour
         direction = dir;
     }
 
+    public void setProjectileDamage(int damage)
+    {
+        ProjDamage = damage;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //do damage to cat and slimes
 
-
+        if (collision.gameObject.GetComponent<CatEnemyScript>() != null)
+        {
+            collision.gameObject.GetComponent<CatEnemyScript>().CauseDamage(ProjDamage);
+        }
+        else if (collision.gameObject.GetComponent<SlimeEnemyScript>() != null)
+        {
+            collision.gameObject.GetComponent<SlimeEnemyScript>().CauseDamage(ProjDamage);
+        }
 
         var manager = FindObjectOfType<BulletManager>();
-        
+
         if (ProjectileType == "bullet")
         {
             manager.returnBullet(this);
@@ -63,5 +76,4 @@ public class ProjectileScript : MonoBehaviour
             manager.returnBomb(this);
         }
     }
-
 }

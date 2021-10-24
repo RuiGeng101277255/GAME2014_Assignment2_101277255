@@ -72,22 +72,6 @@ public class ProjectileScript : MonoBehaviour
                     }
                 }    
             }
-            //if ((!anim.enabled))
-            //{
-            //    if (!hasExploded)
-            //    {
-            //        audio.Play();
-            //        hasExploded = true;
-            //    }
-            //    else
-            //    {
-            //        if (!audio.isPlaying)
-            //        {
-            //            manager.returnBomb(this);
-            //            hasExploded = false;
-            //        }
-            //    }    
-            //}
         }
     }
 
@@ -115,18 +99,31 @@ public class ProjectileScript : MonoBehaviour
 
         if (collision.gameObject.GetComponent<CatEnemyScript>() != null)
         {
-            collision.gameObject.GetComponent<CatEnemyScript>().CauseDamage(ProjDamage);
+            if (collision.gameObject.GetComponent<CatEnemyScript>().isMoving)
+            {
+                collision.gameObject.GetComponent<CatEnemyScript>().CauseDamage(ProjDamage);
+
+                //returns the projectile object to their corresponding queue in bulletmanager
+
+                if (ProjectileType == "bullet")
+                {
+                    manager.returnBullet(this);
+                }
+            }
         }
         else if (collision.gameObject.GetComponent<SlimeEnemyScript>() != null)
         {
-            collision.gameObject.GetComponent<SlimeEnemyScript>().CauseDamage(ProjDamage);
-        }
+            if (collision.gameObject.GetComponent<SlimeEnemyScript>().isMoving)
+            {
+                collision.gameObject.GetComponent<SlimeEnemyScript>().CauseDamage(ProjDamage);
 
-        //returns the projectile object to their corresponding queue in bulletmanager
+                //returns the projectile object to their corresponding queue in bulletmanager
 
-        if (ProjectileType == "bullet")
-        {
-            manager.returnBullet(this);
+                if (ProjectileType == "bullet")
+                {
+                    manager.returnBullet(this);
+                }
+            }
         }
     }
 }

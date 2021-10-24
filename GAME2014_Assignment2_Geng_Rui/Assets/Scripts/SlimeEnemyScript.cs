@@ -20,7 +20,7 @@ public class SlimeEnemyScript : MonoBehaviour
     SpriteRenderer SlimeSprite;
 
     //Slime status
-    bool isMoving;
+    public bool isMoving;
     int Health;
     int MaxHealth;
     int DamageStrength;
@@ -30,6 +30,8 @@ public class SlimeEnemyScript : MonoBehaviour
     //Enemy Manager
     EnemyManager manager;
 
+    AudioSource sfx;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,7 @@ public class SlimeEnemyScript : MonoBehaviour
 
         SlimeRB = GetComponent<Rigidbody2D>();
         SlimeSprite = GetComponent<SpriteRenderer>();
+        sfx = GetComponent<AudioSource>();
 
         manager = FindObjectOfType<EnemyManager>();
 
@@ -61,11 +64,23 @@ public class SlimeEnemyScript : MonoBehaviour
         }
         else
         {
-            //If slime is dead, aka killed by player by reducing health, then it rewards a score amount
-            var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
-            UIInfo.addScore(slimeWorth);
+            if (isMoving)
+            {
+                sfx.Play();
+                SlimeSprite.color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
+                isMoving = false;
+            }
+            else
+            {
+                if (!sfx.isPlaying)
+                {
+                    //If slime is dead, aka killed by player by reducing health, then it rewards a score amount
+                    var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
+                    UIInfo.addScore(slimeWorth);
 
-            SlimeDeath();
+                    SlimeDeath();
+                }
+            }
         }
     }
 
@@ -90,6 +105,8 @@ public class SlimeEnemyScript : MonoBehaviour
         //destroy cat and spawns some loot
         MaxHealth += MaxHealth / 2;
         Health = MaxHealth;
+        isMoving = true;
+        SlimeSprite.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         manager.returnSlime(this);
     }
 

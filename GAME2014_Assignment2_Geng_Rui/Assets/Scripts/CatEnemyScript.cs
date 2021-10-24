@@ -21,7 +21,7 @@ public class CatEnemyScript : MonoBehaviour
     SpriteRenderer CatSprite;
 
     //Cat status
-    bool isMoving;
+    public bool isMoving;
     int Health;
     int MaxHealth;
     int DamageStrength;
@@ -31,6 +31,8 @@ public class CatEnemyScript : MonoBehaviour
     //Enemy Manager
     EnemyManager manager;
 
+    AudioSource sfx;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,7 @@ public class CatEnemyScript : MonoBehaviour
         CatRB = GetComponent<Rigidbody2D>();
         CatAnim = GetComponent<Animator>();
         CatSprite = GetComponent<SpriteRenderer>();
+        sfx = GetComponent<AudioSource>();
 
         manager = FindObjectOfType<EnemyManager>();
 
@@ -63,11 +66,23 @@ public class CatEnemyScript : MonoBehaviour
         }
         else
         {
-            //If cat is dead, aka killed by player by reducing health, then it rewards a score amount
-            var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
-            UIInfo.addScore(catWorth);
+            if (isMoving)
+            {
+                sfx.Play();
+                CatSprite.color = new Color(0.0f, 0.0f, 0.0f, 0.0f);
+                isMoving = false;
+            }
+            else
+            {
+                if (!sfx.isPlaying)
+                {
+                    //If cat is dead, aka killed by player by reducing health, then it rewards a score amount
+                    var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
+                    UIInfo.addScore(catWorth);
 
-            CatDeath();
+                    CatDeath();
+                }
+            }
         }
     }
 
@@ -93,6 +108,8 @@ public class CatEnemyScript : MonoBehaviour
         //destroy cat and spawns some loot
         MaxHealth += 200;
         Health = MaxHealth;
+        isMoving = true;
+        CatSprite.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
         manager.returnCat(this);
     }
 

@@ -9,8 +9,6 @@ public class PlayerManager : MonoBehaviour
     public PlayerAttackScript Rifle;
     public PlayerAttackScript Bomb;
 
-    private AttackTypes setType;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,13 +21,13 @@ public class PlayerManager : MonoBehaviour
         
     }
 
-    public void PlacePlayer(Vector3 pos, float rot)
+    public void PlacePlayer(AttackTypes type, Vector3 pos, float rot)
     {
-        if (setType != AttackTypes.NONE)
+        if (type != AttackTypes.NONE)
         {
             PlayerAttackScript attack = null;
 
-            switch (setType)
+            switch (type)
             {
                 case AttackTypes.SCYTHE:
                     attack = MonoBehaviour.Instantiate(Scythe);

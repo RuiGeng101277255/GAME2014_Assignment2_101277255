@@ -5647,7 +5647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &854485393
 Transform:
   m_ObjectHideFlags: 0
@@ -13036,7 +13036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1938523924
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20576,7 +20576,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InventoryObject: {fileID: 532410710}
   ButtonObj: {fileID: 1736972639}
-  PlaceableGrids: {fileID: 0}
+  PlaceableGrids: {fileID: 854485392}
+  GridButtons: {fileID: 1938523923}
 --- !u!1 &2116568101
 GameObject:
   m_ObjectHideFlags: 0

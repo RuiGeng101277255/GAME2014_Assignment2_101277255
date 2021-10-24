@@ -6,7 +6,9 @@ public class InventorySystemScript : MonoBehaviour
 {
     public GameObject InventoryObject;
     public GameObject ButtonObj;
+
     public GameObject PlaceableGrids;
+    public GameObject GridButtons;
 
     public void OpenInventory()
     {
@@ -40,6 +42,16 @@ public class InventorySystemScript : MonoBehaviour
                 type = AttackTypes.NONE;
                 break;
         }
-        PlaceableGrids.GetComponent<PlayerLayout>().SetPlayerType(type);
+        //PlaceableGrids.GetComponent<PlayerLayout>().SetPlayerType(type);
+
+        PlaceableGrids.SetActive(true);
+        GridButtons.SetActive(true);
+
+        var LayoutGrids = FindObjectsOfType<PlayerLayout>();
+
+        foreach (PlayerLayout p in LayoutGrids)
+        {
+            p.SetPlayerType(type);
+        }
     }
 }

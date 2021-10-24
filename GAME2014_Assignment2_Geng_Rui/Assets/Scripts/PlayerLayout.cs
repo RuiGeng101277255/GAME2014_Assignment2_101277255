@@ -16,7 +16,7 @@ public class PlayerLayout : MonoBehaviour
     void Start()
     {
         spriteR = GetComponent<SpriteRenderer>();
-        setType = AttackTypes.SCYTHE;
+        //setType = AttackTypes.SCYTHE;
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class PlayerLayout : MonoBehaviour
     {
         //spawn player
 
-        spriteR.color = Color.black;
+        //spriteR.color = Color.black;
         setType = type;
 
         //...
@@ -38,6 +38,7 @@ public class PlayerLayout : MonoBehaviour
 
     public void PlacePlayer()
     {
-        manager.PlacePlayer(transform.position, ZRot);
+        manager.PlacePlayer(setType, transform.position, ZRot);
+        Destroy(gameObject);
     }
 }

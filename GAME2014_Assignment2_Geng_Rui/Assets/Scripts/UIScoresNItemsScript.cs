@@ -47,7 +47,7 @@ public class UIScoresNItemsScript : MonoBehaviour
             StreamWriter scoreWriter = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
             scoreWriter.WriteLine(scoreNum);
             scoreWriter.Close();
-            UnityEngine.SceneManagement.SceneManager.LoadScene("EndScene", UnityEngine.SceneManagement.LoadSceneMode.Single);
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene", UnityEngine.SceneManagement.LoadSceneMode.Single);
         }
     }
 

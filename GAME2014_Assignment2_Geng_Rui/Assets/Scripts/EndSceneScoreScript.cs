@@ -11,6 +11,8 @@ public class EndSceneScoreScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ScoreText = GetComponent<Text>();
+
         StreamReader scoreReader = new StreamReader(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
         string scoreString = scoreReader.ReadLine();
 

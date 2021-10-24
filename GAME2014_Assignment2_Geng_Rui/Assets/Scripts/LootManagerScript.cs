@@ -1,18 +1,29 @@
+/*
+ Full Name: Rui Chen Geng Li (101277255)
+ File Name: LootManagerScript.cs
+ Last Modified: October 24th, 2021
+ Description: This is the manager for random loot spawns
+ Version History: v1.05 Cleaned Up Codes and Comments
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LootManagerScript : MonoBehaviour
 {
+    //Variables for the display texts and the loot prefabs
     public UIScoresNItemsScript UIInformation;
     public LootScript coinPrefab;
     public LootScript gemPrefab;
     public LootScript potionPrefab;
 
+    //loot queues
     Queue<LootScript> coinQueue;
     Queue<LootScript> gemQueue;
     Queue<LootScript> potionQueue;
 
+    //random delay set to spawn each of the different loots
     float coinSpawnDelay;
     float gemSpawnDelay;
     float potionSpawnDelay;
@@ -20,10 +31,12 @@ public class LootManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Creates an empty queue for each of the loot queues
         coinQueue = new Queue<LootScript>();
         gemQueue = new Queue<LootScript>();
         potionQueue = new Queue<LootScript>();
 
+        //initial spawn delay set to 0 so that the player has something to pick up in the beginning
         coinSpawnDelay = 0.0f;
         gemSpawnDelay = 0.0f;
         potionSpawnDelay = 0.0f;
@@ -32,6 +45,8 @@ public class LootManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Checks if the delays are <= 0, if so then spawn a corresponding loot object
+
         if (coinSpawnDelay <= 0.0f)
         {
             spawnCoin();
@@ -89,6 +104,7 @@ public class LootManagerScript : MonoBehaviour
             tempCoin.gameObject.SetActive(true);
         }
 
+        //delay with random range between 5 and 10
         coinSpawnDelay = Random.Range(5, 10);
 
     }
@@ -122,6 +138,7 @@ public class LootManagerScript : MonoBehaviour
             tempGem.gameObject.SetActive(true);
         }
 
+        //delay with random range between 7 and 10
         gemSpawnDelay = Random.Range(7, 10);
     }
 
@@ -154,21 +171,25 @@ public class LootManagerScript : MonoBehaviour
             tempGem.gameObject.SetActive(true);
         }
 
+        //delay with random range between 10 and 20
         potionSpawnDelay = Random.Range(10, 20);
     }
 
     public void returnCoin(LootScript coin)
     {
+        //Returns the coin to the coin queue
         coin.gameObject.SetActive(false);
         coinQueue.Enqueue(coin);
     }
     public void returnGem(LootScript gem)
     {
+        //Returns the gem to the gem queue
         gem.gameObject.SetActive(false);
         gemQueue.Enqueue(gem);
     }
     public void returnPotion(LootScript potion)
     {
+        //Returns the potion to the potion queue
         potion.gameObject.SetActive(false);
         potionQueue.Enqueue(potion);
     }

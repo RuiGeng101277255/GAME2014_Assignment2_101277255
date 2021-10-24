@@ -1,28 +1,28 @@
+/*
+ Full Name: Rui Chen Geng Li (101277255)
+ File Name: PlayerManager.cs
+ Last Modified: October 24th, 2021
+ Description: Manages the player attacks that can be placed in the game scene
+ Version History: v1.04 Cleaned Up Codes and Comments
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    //Types of attacks and prefabs
     public PlayerAttackScript Scythe;
     public PlayerAttackScript Hammer;
     public PlayerAttackScript Rifle;
     public PlayerAttackScript Bomb;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void PlacePlayer(AttackTypes type, Vector3 pos, float rot)
     {
+        //Places a player attack based on the chosen type, the position from the grid and a rotation
+        //Placing an attack would cost a specific amount of resources
+
         var UIAmount = FindObjectOfType<UIScoresNItemsScript>();
 
         if (type != AttackTypes.NONE)
@@ -49,6 +49,7 @@ public class PlayerManager : MonoBehaviour
                     break;
             }
 
+            //Manually setting the rotation and transform of the attack due to some possible grid placement errors
             if (attack != null)
             {
                 if (rot == 0.0f)
@@ -83,8 +84,8 @@ public class PlayerManager : MonoBehaviour
                 {
                     attack.transform.position = pos;
                 }
-                //attack.transform.SetParent(transform);
-                //attack.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+
+                //appropiate rotation and sets the attack active
                 attack.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), rot);
                 attack.setRotation(rot);
                 attack.gameObject.SetActive(true);

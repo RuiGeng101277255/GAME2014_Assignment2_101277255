@@ -1,26 +1,40 @@
+/*
+ Full Name: Rui Chen Geng Li (101277255)
+ File Name: CatEnemyScript.cs
+ Last Modified: October 24th, 2021
+ Description: This is the core structed of the cat type enemy
+ Version History: v1.09 Cleaned Up Codes and Comments
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CatEnemyScript : MonoBehaviour
 {
+    //Variables that define the cat movement speeds
     public float moveSpeed;
 
+    //Rigidbody and sprite for correct display and orientation
     Rigidbody2D CatRB;
     Animator CatAnim;
     SpriteRenderer CatSprite;
 
+    //Cat status
     bool isMoving;
     int Health;
     int DamageStrength;
     int catWorth;
     Vector2 moveDirection;
 
+    //Enemy Manager
     EnemyManager manager;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Gets the cat's component and set up the initial status values
+
         CatRB = GetComponent<Rigidbody2D>();
         CatAnim = GetComponent<Animator>();
         CatSprite = GetComponent<SpriteRenderer>();
@@ -39,15 +53,15 @@ public class CatEnemyScript : MonoBehaviour
     {
         if (Health > 0)
         {
+            //If cat is alive, then see if it moves
             if (isMoving)
             {
                 CatRB.position += moveDirection * moveSpeed;
-                //CatAnim.SetBool("IsMoving", isMoving);
             }
         }
         else
         {
-            //CatAnim.SetBool("IsMoving", isMoving);
+            //If cat is dead, aka killed by player by reducing health, then it rewards a score amount
             var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
             UIInfo.addScore(catWorth);
 
@@ -57,15 +71,18 @@ public class CatEnemyScript : MonoBehaviour
 
     public void setTargetPosition(Vector2 target)
     {
+        //Sets where cat should be moved next
         calcDirection(CatRB.position, target);
     }
     public void CauseDamage(int damage)
     {
+        //player's damage to the enemy
         Health -= damage;
     }
 
     public int getCatDamage()
     {
+        //gets the cat's damage for the player's base
         return DamageStrength;
     }
 
@@ -78,6 +95,8 @@ public class CatEnemyScript : MonoBehaviour
 
     void calcDirection(Vector2 pos, Vector2 target)
     {
+        //Calculates the moving direction and orientation for proper enemy display
+
         Vector2 tempDirection = target - pos;
 
         if (Mathf.Abs(tempDirection.x) > Mathf.Abs(tempDirection.y))

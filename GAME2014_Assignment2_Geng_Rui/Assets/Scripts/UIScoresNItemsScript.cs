@@ -115,4 +115,38 @@ public class UIScoresNItemsScript : MonoBehaviour
                 break;
         }
     }
+
+    public bool checkIfCanPlaceAttack(AttackTypes type)
+    {
+        switch (type)
+        {
+            case AttackTypes.SCYTHE:
+                if ((scytheCosts[0] <= coinNum) && (scytheCosts[1] <= gemNum) && (scytheCosts[2] <= potionNum))
+                {
+                    return true;
+                }
+                break;
+            case AttackTypes.HAMMER:
+                if ((hammerCosts[0] <= coinNum) && (hammerCosts[1] <= gemNum) && (hammerCosts[2] <= potionNum))
+                {
+                    return true;
+                }
+                break;
+            case AttackTypes.RIFLE:
+                if ((rifleCosts[0] <= coinNum) && (rifleCosts[1] <= gemNum) && (rifleCosts[2] <= potionNum))
+                {
+                    return true;
+                }
+                break;
+            case AttackTypes.BOMB:
+                if ((bombCosts[0] <= coinNum) && (bombCosts[1] <= gemNum) && (bombCosts[2] <= potionNum))
+                {
+                    return true;
+                }
+                break;
+            default:
+                break;
+        }
+        return false;
+    }
 }

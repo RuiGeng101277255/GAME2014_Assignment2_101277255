@@ -20,7 +20,6 @@ public class InventorySystemScript : MonoBehaviour
     {
         InventoryObject.SetActive(false);
         ButtonObj.SetActive(true);
-        PlaceableGrids.SetActive(true);
 
         AttackTypes type;
 
@@ -42,16 +41,20 @@ public class InventorySystemScript : MonoBehaviour
                 type = AttackTypes.NONE;
                 break;
         }
-        //PlaceableGrids.GetComponent<PlayerLayout>().SetPlayerType(type);
 
-        PlaceableGrids.SetActive(true);
-        GridButtons.SetActive(true);
+        var UIAmount = FindObjectOfType<UIScoresNItemsScript>();
 
-        var LayoutGrids = FindObjectsOfType<PlayerLayout>();
-
-        foreach (PlayerLayout p in LayoutGrids)
+        if (UIAmount.checkIfCanPlaceAttack(type))
         {
-            p.SetPlayerType(type);
+            PlaceableGrids.SetActive(true);
+            GridButtons.SetActive(true);
+
+            var LayoutGrids = FindObjectsOfType<PlayerLayout>();
+
+            foreach (PlayerLayout p in LayoutGrids)
+            {
+                p.SetPlayerType(type);
+            }
         }
     }
 }

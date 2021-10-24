@@ -47,7 +47,38 @@ public class PlayerManager : MonoBehaviour
 
             if (attack != null)
             {
-                attack.transform.position = pos;
+                if (rot == 0.0f)
+                {
+                    attack.transform.position = pos - new Vector3(0.0f, 0.5f, 0.0f);
+                }
+                else if (rot == 180.0f)
+                {
+                    attack.transform.position = pos + new Vector3(0.0f, 0.5f, 0.0f);
+                }
+                else if (rot == 45.0f)
+                {
+                    attack.transform.position = pos - new Vector3(-0.5f, 0.5f, 0.0f);
+                }
+                else if (rot == -45.0f)
+                {
+                    attack.transform.position = pos + new Vector3(-1.0f, -1.0f, 0.0f);
+                }
+                else if (rot == 90.0f)
+                {
+                    attack.transform.position = pos + new Vector3(0.5f, 0.0f, 0.0f);
+                }
+                else if (rot == -90.0f)
+                {
+                    attack.transform.position = pos + new Vector3(-1.0f, 0.0f, 0.0f);
+                }
+                else if (rot == -135.0f)
+                {
+                    attack.transform.position = pos + new Vector3(-0.5f, 0.5f, 0.0f);
+                }
+                else
+                {
+                    attack.transform.position = pos;
+                }
                 //attack.transform.SetParent(transform);
                 //attack.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
                 attack.transform.Rotate(new Vector3(0.0f, 0.0f, 1.0f), rot);

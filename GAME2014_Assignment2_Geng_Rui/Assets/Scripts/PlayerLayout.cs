@@ -38,7 +38,6 @@ public class PlayerLayout : MonoBehaviour
 
     public void PlacePlayer()
     {
-        Debug.Log(transform.position);
         manager.PlacePlayer(transform.position, ZRot);
     }
 }

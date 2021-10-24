@@ -221,5 +221,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2933170f5330064c95f937bf4011d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AttackDamage: 100
+  AttackDamage: 500
   AttackIntervalDuration: 10

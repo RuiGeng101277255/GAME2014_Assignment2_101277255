@@ -13,6 +13,7 @@ public class CatEnemyScript : MonoBehaviour
     bool isMoving;
     int Health;
     int DamageStrength;
+    int catWorth;
     Vector2 moveDirection;
 
     EnemyManager manager;
@@ -29,6 +30,7 @@ public class CatEnemyScript : MonoBehaviour
         isMoving = true;
         Health = 500;
         DamageStrength = 60;
+        catWorth = 350;
         moveDirection = new Vector2(1.0f, 0.0f);
     }
 
@@ -46,6 +48,9 @@ public class CatEnemyScript : MonoBehaviour
         else
         {
             //CatAnim.SetBool("IsMoving", isMoving);
+            var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
+            UIInfo.addScore(catWorth);
+
             CatDeath();
         }
     }

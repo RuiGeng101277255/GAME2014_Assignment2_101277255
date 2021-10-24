@@ -13,6 +13,7 @@ public class SlimeEnemyScript : MonoBehaviour
     bool isMoving;
     int Health;
     int DamageStrength;
+    int slimeWorth;
     Vector2 moveDirection;
 
     EnemyManager manager;
@@ -29,6 +30,7 @@ public class SlimeEnemyScript : MonoBehaviour
         isMoving = true;
         Health = 100;
         DamageStrength = 35;
+        slimeWorth = 100;
         moveDirection = new Vector2(1.0f, 0.0f);
     }
 
@@ -46,6 +48,9 @@ public class SlimeEnemyScript : MonoBehaviour
         else
         {
             //CatAnim.SetBool("IsMoving", isMoving);
+            var UIInfo = FindObjectOfType<UIScoresNItemsScript>();
+            UIInfo.addScore(slimeWorth);
+
             SlimeDeath();
         }
     }

@@ -23,6 +23,8 @@ public class PlayerManager : MonoBehaviour
 
     public void PlacePlayer(AttackTypes type, Vector3 pos, float rot)
     {
+        var UIAmount = FindObjectOfType<UIScoresNItemsScript>();
+
         if (type != AttackTypes.NONE)
         {
             PlayerAttackScript attack = null;
@@ -31,15 +33,19 @@ public class PlayerManager : MonoBehaviour
             {
                 case AttackTypes.SCYTHE:
                     attack = MonoBehaviour.Instantiate(Scythe);
+                    UIAmount.useResources(UIAmount.getCosts(AttackTypes.SCYTHE));
                     break;
                 case AttackTypes.HAMMER:
                     attack = MonoBehaviour.Instantiate(Hammer);
+                    UIAmount.useResources(UIAmount.getCosts(AttackTypes.HAMMER));
                     break;
                 case AttackTypes.RIFLE:
                     attack = MonoBehaviour.Instantiate(Rifle);
+                    UIAmount.useResources(UIAmount.getCosts(AttackTypes.RIFLE));
                     break;
                 case AttackTypes.BOMB:
                     attack = MonoBehaviour.Instantiate(Bomb);
+                    UIAmount.useResources(UIAmount.getCosts(AttackTypes.BOMB));
                     break;
             }
 

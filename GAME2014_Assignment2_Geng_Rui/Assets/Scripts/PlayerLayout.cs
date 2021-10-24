@@ -39,6 +39,13 @@ public class PlayerLayout : MonoBehaviour
 
     public void PlacePlayer()
     {
+        var UIAmount = FindObjectOfType<UIScoresNItemsScript>();
+
+        //check if there is enough resources then can place player
+
+
+
+
         manager.PlacePlayer(setType, transform.position, ZRot);
         Destroy(gameObject);
 

@@ -8,17 +8,14 @@ public class EnemyManager : MonoBehaviour
     public CatEnemyScript CatPrefab;
     public SlimeEnemyScript SlimePrefab;
     public Vector2 spawnPosition;
+    public int SpawnedSlimeNum;
+    public int SpawnedCatNum;
 
     float SlimeSpawnDelay;
     float CatSpawnDelay;
 
     Queue<SlimeEnemyScript> SlimePool;
     Queue<CatEnemyScript> CatPool;
-
-    [SerializeField]
-    int SpawnedSlimeNum;
-    [SerializeField]
-    int SpawnedCatNum;
 
     // Start is called before the first frame update
     void Start()

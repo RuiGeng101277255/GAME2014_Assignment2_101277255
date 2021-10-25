@@ -10,7 +10,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 
 public class EndSceneScoreScript : MonoBehaviour
 {
@@ -21,11 +20,6 @@ public class EndSceneScoreScript : MonoBehaviour
     void Start()
     {
         ScoreText = GetComponent<Text>();
-
-        //Reader reads a line from the specified file (which is the score but in string format) and set to be part of the scoretext.
-        StreamReader scoreReader = new StreamReader(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
-        string scoreString = scoreReader.ReadLine();
-
-        ScoreText.text = "Final Score: " + scoreString;
+        ScoreText.text = "Final Score: " + ScoreSavingScript.Score;
     }
 }

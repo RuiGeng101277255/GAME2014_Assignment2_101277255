@@ -4697,6 +4697,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6073306195059346068, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073306195059346068, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -205
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073306195059346069, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_Text
+      value: 'LOOT DROPS:'
+      objectReference: {fileID: 0}
     - target: {fileID: 6073306195207196473, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
         type: 3}
       propertyPath: m_Name
@@ -4757,6 +4772,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6073306196570253257, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073306196570253262, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6073306196570253262, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1549508750607559342, guid: ec47f75fe8aff1644ac73998f4ad31b5,
+        type: 3}
+    - target: {fileID: 6073306196570253262, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a0ffdc3e9ca0c24c8a7cd8e594ca4ea, type: 3}
 --- !u!1001 &8969088738831770362
@@ -4770,11 +4806,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Weapon Instruction
-      objectReference: {fileID: 0}
-    - target: {fileID: 8969088740218261188, guid: 77c1cce42c1e3fe4b81899af5f4daa7f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8969088740218261189, guid: 77c1cce42c1e3fe4b81899af5f4daa7f,
         type: 3}

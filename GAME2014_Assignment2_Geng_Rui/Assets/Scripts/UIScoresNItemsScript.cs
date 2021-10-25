@@ -10,7 +10,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.IO;
 
 public class UIScoresNItemsScript : MonoBehaviour
 {
@@ -62,12 +61,11 @@ public class UIScoresNItemsScript : MonoBehaviour
         setTextContent();
 
         //If player dies, then a stream writer is used to write the score into Score.txt file, so that the gameover scene loaded in the next lines can access it without this scene's information.
-        if ((CurrentHealth <= 0) && hasBasedExploded && (!sfx.isPlaying))
+        if ((CurrentHealth <= 0) && hasBasedExploded)// && (!sfx.isPlaying))
         {
-            StreamWriter scoreWriter = new StreamWriter(Application.dataPath + Path.DirectorySeparatorChar + "Score.txt");
-            scoreWriter.WriteLine(scoreNum);
-            scoreWriter.Close();
+            ScoreSavingScript.Score = scoreNum;
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene", UnityEngine.SceneManagement.LoadSceneMode.Single);
+
         }
     }
 
